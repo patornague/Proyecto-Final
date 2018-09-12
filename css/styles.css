@@ -44,61 +44,79 @@ table {
   box-sizing: border-box;
 }
 /* ==================== */
-
-.container{
+body{
   background: #fff;
   margin: 0 auto;
-  overflow: hidden;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+	flex-wrap: wrap;
 }
 .main-header{
-  position: absolute;
-  top: 5px;
-  border-bottom: 2px solid #000;
+	width: 100%;
+	background: #f2f2f2;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+a.user{
+	font-size: 30px;
+	padding: 10px;
+}
+a.toggle-nav{
+	font-size: 30px;
+	padding: 10px;
 }
 h1{
-  font-size: 40px;
-  text-align: center;
+	font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+	padding: 10px;
+	text-transform: uppercase;
 }
-.main-nav {
-  float: left;
-  font-size: 16px;
-  padding: 10px 10px;
+.main-nav{
+	display: none;
+	font-family: 'Raleway',sans-serif;
 }
-.main-nav i {
-  float: left;
-}
-.main-nav ul {
-  float: left;
-}
-.main-nav li {
-  float: left;
-  text-transform: capitalize;
-  padding: 0px 10px;
-  border-right:1px solid #fff;
+.main-body{
+	font-family: 'Raleway',sans-serif;
 }
 .main-footer{
-  border-top: 2px solid #000;
+	font-family: 'Raleway',sans-serif;
+	width: 100%;
+  border-top: 1px solid #000;
   position: absolute;
-  bottom: 5px;
+  bottom: 10px;
+	font-size: 16px;
+  padding: 10px;
 }
-.main-footer {
-  float: left;
-  font-size: 16px;
-  padding: 10px 10px;
-  margin-left: 10px;
-}
-.main-footer i {
-  float: left;
-}
-.main-footer ul {
-  float: left;
-}
-.main-footer li {
+.contact li{
+	background: #f2f2f2;
   float: left;
   text-transform: capitalize;
-  padding: 0px 10px;
-  border-right:1px solid #fff;
+  padding: 10px;
+}
+.social-media li{
+	float: left;
+	padding: 10px;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+@media (min-width:1024px) {
+	.main-nav{
+		display: none;
+		font-size: 30px;
+	  padding: 10px;
+	}
+	.main-nav i {
+	  float: left;
+	}
+	.main-nav ul {
+	  float: left;
+	}
+	.main-nav li {
+	  float: left;
+	  text-transform: capitalize;
+	  padding: 0px 10px;
+	  border-right:1px solid #fff;
+	}
 }
