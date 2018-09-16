@@ -42,6 +42,7 @@ table {
 }
 * {
   box-sizing: border-box;
+	font-size: 16px;
 }
 /* ==================== */
 body{
@@ -59,25 +60,25 @@ body{
 	justify-content: space-between;
 }
 a.user{
-	font-size: 30px;
+	font-size: 2em;
 	padding: 10px;
 }
 a.toggle-nav{
-	font-size: 30px;
+	font-size: 2em;
 	padding: 10px;
 }
 h1{
 	font-family: 'Abril Fatface', cursive;
-  font-size: 30px;
+  font-size: 2em;
 	padding: 10px;
 	text-transform: uppercase;
 }
 .main-nav{
 	display: none;
-	font-family: 'Raleway',sans-serif;
+	font-family: 'Open Sans Condensed',sans-serif;
 }
 .main-body{
-	font-family: 'Raleway',sans-serif;
+	font-family: 'Open Sans Condensed',sans-serif;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -88,33 +89,41 @@ h1{
 	flex-wrap: wrap;
 }
 .card-data{
-	background: rgba(242,242,242,0.5);
+	background: rgba(242,242,242,0.7);
 	position: absolute;
-	bottom: 100px;
+	top: 5%;
+	padding: 5px;
+	width: 100%;
 }
+
 h2{
-	font-size: 20px;
-	font-family: 'Raleway:800',sans-serif;
+	font-size: 1.5em;
+	font-family: 'Open Sans Condensed',sans-serif;
 	text-transform: uppercase;
-	border-bottom: 3px solid #000;
-}
-p{
-	font-size: 16px;
+	padding: 5px;
+	border-bottom: 1px solid #000;
 }
 .main-footer{
-	font-family: 'Raleway',sans-serif;
+	font-family: 'Open Sans Condensed',sans-serif;
+
 	width: 100%;
 	background: #f2f2f2;
   border-top: 1px solid #000;
-	font-size: 16px;
   padding: 10px;
+}
+.contact{
+	overflow: hidden;
 }
 .contact li{
   float: left;
   text-transform: capitalize;
   padding: 10px;
 }
-.social-media li{
+.social{
+	overflow: hidden;
+	width: 100%;
+}
+.social li{
 	float: left;
 	padding: 10px;
 }
@@ -126,7 +135,7 @@ a{
 @media (min-width:1024px) {
 	.main-nav{
 		display: none;
-		font-size: 30px;
+		font-size: 2em;
 	  padding: 10px;
 	}
 	.main-nav i {
@@ -141,24 +150,13 @@ a{
 	  padding: 0px 10px;
 	  border-right:1px solid #fff;
 	}
-.card{
-
-	position: relative;
-	margin: 20px;
-}
-.card-data{
-	background: rgba(242,242,242,0.5);
-	position: absolute;
-	bottom: 100px;
-	right: -200px;
-}
-h2{
-	font-size: 40px;
-	font-family: 'Raleway:800',sans-serif;
-	text-transform: uppercase;
-	border-bottom: 3px solid #000;
-}
-p{
-	font-size: 16px;
-}
+	.card{
+		margin: 20px;
+	}
+	h2{
+		font-size: 2.2em;
+		font-family: 'Open Sans Condensed',sans-serif;
+		text-transform: uppercase;
+		border-bottom: 1px solid #000;
+	}
 }
