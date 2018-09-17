@@ -1,38 +1,4 @@
 /* HTML */
-element.style {
-}
-
-:root {
-  --blue:#007bff;
-  --indigo:#6610f2;
-  --purple:#6f42c1;
-  --pink:#e83e8c;
-  --red:#dc3545;
-  --orange:#fd7e14;
-  --yellow:#ffc107;
-  --green:#28a745;
-  --teal:#20c997;
-  --cyan:#17a2b8;
-  --white:#fff;
-  --gray:#6c757d;
-  --gray-dark:#343a40;
-  --primary:#007bff;
-  --secondary:#6c757d;
-  --success:#28a745;
-  --info:#17a2b8;
-  --warning:#ffc107;
-  --danger:#dc3545;
-  --light:#f8f9fa;
-  --dark:#343a40;
-  --breakpoint-xs:0;
-  --breakpoint-sm:576px;
-  --breakpoint-md:768px;
-  --breakpoint-lg:992px;
-  --breakpoint-xl:1200px;
-  --font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  --font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-}
-
 html {
   font-family:sans-serif;
   line-height:1.15;
@@ -43,7 +9,7 @@ html {
 }
 
 /*BODY*/
-element.style {
+
 }
 
 body {
@@ -58,8 +24,6 @@ body {
 }
 
 /*BLOCK*/
-element.style {
-}
 
 .register-photo {
   background:#f1f7fc;
@@ -67,7 +31,7 @@ element.style {
 }
 
 /*FORM CONTAINER*/
-element.style {
+
 }
 
 .register-photo .form-container {
@@ -79,19 +43,16 @@ element.style {
 }
 
 /*DIV IMAGE*/
-element.style {
+
 
 }
 
 .register-photo .image-holder {
   display:table-cell;
   width:auto;
-  background:url(images/interiores.jpg);
-  background-size:cover;
+
 }
 /*FORM*/
-element.style {
-}
 
 @media (max-width:991px) {
   .register-photo form {
@@ -108,9 +69,7 @@ element.style {
 }
 
 /*HEADING*/
-element.style {
-}
-
+f
 .register-photo form h2 {
   font-size:24px;
   line-height:1.5;
@@ -147,8 +106,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*FORM GROUP*/
-element.style {
-}
 
 .form-group {
   margin-bottom:1rem;
@@ -163,7 +120,7 @@ element.style {
 }
 
 /*ABC*/
-element.style {
+
 }
 
 .register-photo form .form-control {
@@ -220,8 +177,7 @@ button, input, optgroup, select, textarea {
 }
 
 /*CHECKBOX WITH LABEL*/
-element.style {
-}
+
 
 .register-photo form .form-check {
   font-size:13px;
@@ -243,8 +199,6 @@ element.style {
 }
 
 /*LABEL*/
-element.style {
-}
 
 .form-check-label {
   margin-bottom:0;
@@ -269,8 +223,6 @@ label {
 }
 
 /*CHECKBOX*/
-element.style {
-}
 
 input[type=checkbox], input[type=radio] {
   box-sizing:border-box;
@@ -308,9 +260,6 @@ button, input, optgroup, select, textarea {
 }
 
 /*BUTTON*/
-element.style {
-}
-
 .btn:not(:disabled):not(.disabled) {
 
     cursor: pointer;
@@ -392,14 +341,9 @@ button {
 *, ::after, ::before {
 
     box-sizing: border-box;
-
-}
-
-
+  }
 
 /*LINK*/
-element.style {
-}
 
 .register-photo form .already {
   display:block;
