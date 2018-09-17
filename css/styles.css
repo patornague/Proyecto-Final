@@ -95,7 +95,6 @@ h1{
 	padding: 5px;
 	width: 100%;
 }
-
 h2{
 	font-size: 1.5em;
 	font-family: 'Open Sans Condensed',sans-serif;
@@ -104,28 +103,28 @@ h2{
 	border-bottom: 1px solid #000;
 }
 .main-footer{
-	font-family: 'Open Sans Condensed',sans-serif;
-
 	width: 100%;
 	background: #f2f2f2;
   border-top: 1px solid #000;
   padding: 10px;
-}
-.contact{
-	overflow: hidden;
-}
-.contact li{
-  float: left;
-  text-transform: capitalize;
-  padding: 10px;
+	font-family: 'Open Sans Condensed',sans-serif;
+	display: flex;
+	flex-wrap: wrap;
 }
 .social{
-	overflow: hidden;
 	width: 100%;
 }
 .social li{
 	float: left;
 	padding: 10px;
+}
+.contact{
+	width: 100%;
+}
+.contact li{
+  float: left;
+  text-transform: capitalize;
+  padding: 10px;
 }
 a{
 	text-decoration: none;
