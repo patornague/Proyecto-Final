@@ -42,9 +42,11 @@ table {
 }
 * {
   box-sizing: border-box;
+	font-size: 16px;
 }
 /* ==================== */
 body{
+	width: 100%;
   background: #fff;
   margin: 0 auto;
   display: flex;
@@ -58,42 +60,70 @@ body{
 	justify-content: space-between;
 }
 a.user{
-	font-size: 30px;
+	font-size: 2em;
 	padding: 10px;
 }
 a.toggle-nav{
-	font-size: 30px;
+	font-size: 2em;
 	padding: 10px;
 }
 h1{
 	font-family: 'Abril Fatface', cursive;
-  font-size: 30px;
+  font-size: 2em;
 	padding: 10px;
 	text-transform: uppercase;
 }
 .main-nav{
 	display: none;
-	font-family: 'Raleway',sans-serif;
+	font-family: 'Open Sans Condensed',sans-serif;
 }
 .main-body{
-	font-family: 'Raleway',sans-serif;
+	font-family: 'Open Sans Condensed',sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.card{
+	position: relative;
+	margin: 5px;
+	flex-wrap: wrap;
+}
+.card-data{
+	background: rgba(242,242,242,0.7);
+	position: absolute;
+	top: 5%;
+	padding: 5px;
+	width: 100%;
+}
+
+h2{
+	font-size: 1.5em;
+	font-family: 'Open Sans Condensed',sans-serif;
+	text-transform: uppercase;
+	padding: 5px;
+	border-bottom: 1px solid #000;
 }
 .main-footer{
-	font-family: 'Raleway',sans-serif;
+	font-family: 'Open Sans Condensed',sans-serif;
+
 	width: 100%;
+	background: #f2f2f2;
   border-top: 1px solid #000;
-  position: absolute;
-  bottom: 10px;
-	font-size: 16px;
   padding: 10px;
 }
+.contact{
+	overflow: hidden;
+}
 .contact li{
-	background: #f2f2f2;
   float: left;
   text-transform: capitalize;
   padding: 10px;
 }
-.social-media li{
+.social{
+	overflow: hidden;
+	width: 100%;
+}
+.social li{
 	float: left;
 	padding: 10px;
 }
@@ -101,10 +131,11 @@ a{
 	text-decoration: none;
 	color: inherit;
 }
+/* ====================== */
 @media (min-width:1024px) {
 	.main-nav{
 		display: none;
-		font-size: 30px;
+		font-size: 2em;
 	  padding: 10px;
 	}
 	.main-nav i {
@@ -118,5 +149,14 @@ a{
 	  text-transform: capitalize;
 	  padding: 0px 10px;
 	  border-right:1px solid #fff;
+	}
+	.card{
+		margin: 20px;
+	}
+	h2{
+		font-size: 2.2em;
+		font-family: 'Open Sans Condensed',sans-serif;
+		text-transform: uppercase;
+		border-bottom: 1px solid #000;
 	}
 }
