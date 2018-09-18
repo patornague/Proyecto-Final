@@ -49,6 +49,7 @@ body{
 	width: 100%;
   background: #fff;
   margin: 0 auto;
+	font-family: 'Open Sans Condensed',sans-serif;
 }
 .main-header{
 	width: 100%;
@@ -61,34 +62,37 @@ a.user{
 	font-size: 2em;
 	padding: 10px;
 }
-a.toggle-nav{
-	font-size: 2em;
-	padding: 10px;
-}
 h1{
 	font-family: 'Abril Fatface', cursive;
   font-size: 2em;
 	padding: 10px;
 	text-transform: uppercase;
 }
+a.toggle-nav{
+	font-size: 2em;
+	padding: 10px;
+}
 .main-nav{
 	display: none;
-	font-family: 'Open Sans Condensed',sans-serif;
 }
 .main-body{
-	font-family: 'Open Sans Condensed',sans-serif;
+	margin: 10px;
 }
-
 h2{
 	font-size: 1.5em;
-	font-family: 'Open Sans Condensed',sans-serif;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	padding: 5px;
 	border-bottom: 1px solid #000;
+  text-align: center;
+  font-weight: bold;
+}
+h3{
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .main-footer{
-	font-family: 'Open Sans Condensed',sans-serif;
-
 	width: 100%;
 	background: #f2f2f2;
   border-top: 1px solid #000;
@@ -133,19 +137,4 @@ a{
 	  padding: 0px 10px;
 	  border-right:1px solid #fff;
 	}
-
 	}
-body{
-  padding: 10px;
-}
-h2 {
-  text-align: center;
-  font-size: 50px;
-  font-weight: bold;
-}
-h3{
-  font-size: 20px;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
