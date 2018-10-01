@@ -10,7 +10,7 @@
   </head>
   <body>
       <header class="main-header">
-        <a href="login.html" class="user">
+        <a href="login.php" class="user">
           <span class="fa fa-user"></span>
         </a>
         <h1>abc design</h1>
@@ -64,7 +64,7 @@
             <li><a href="#">home</a></li>
             <li><a href="#">nosotros</a></li>
             <li><a href="#">portfolio</a></li>
-            <li><a href="faq.html">faq's</a></li>
+            <li><a href="faq.php">faq's</a></li>
             <li><a href="#">contacto</a></li>
           </ul>
         </nav>

@@ -2,18 +2,17 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
     <link rel="stylesheet" href="../css/faq.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans+Condensed:300" rel="stylesheet">
-    <title>FAQ</title>
   </head>
   <body>
     <header class="main-header">
-        <a href="login.html" class="user">
+        <a href="login.php" class="user">
           <span class="fa fa-user"></span>
         </a>
-        <a href="proyecto-final.html"><h1>abc design</h1></a>
+        <a href="proyecto-final.php"><h1>abc design</h1></a>
         <a href="#" class="toggle-nav">
           <span class="fa fa-bars"></span>
         </a>
@@ -54,7 +53,7 @@
       </nav>
       <nav class="contact">
           <ul>
-            <li><a href="proyecto-final.html">home</a></li>
+            <li><a href="proyecto-final.php">home</a></li>
             <li><a href="#">nosotros</a></li>
             <li><a href="#">portfolio</a></li>
             <li><a href="#">faq's</a></li>
