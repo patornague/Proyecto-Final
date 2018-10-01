@@ -13,12 +13,12 @@
       <a href="../login.php" class="user">
         <span class="fa fa-user"></span>
       </a>
-      <a href="proyecto-final.php"><h1>abc design</h1></a>
+      <a href="index.php"><h1>abc design</h1></a>
       <a href="#" class="toggle-nav">
         <span class="fa fa-bars"></span>
       </a>
       <ul class="main-nav">
-        <li><a href="proyecto-final.php">home</a></li>
+        <li><a href="index.php">home</a></li>
         <li><a href="#">nosotros</a></li>
         <li><a href="#">portfolio</a></li>
         <li><a href="#">faq's</a></li>

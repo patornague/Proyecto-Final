@@ -12,7 +12,7 @@
         <a href="login.php" class="user">
           <span class="fa fa-user"></span>
         </a>
-        <a href="proyecto-final.php"><h1>abc design</h1></a>
+        <a href="index.php"><h1>abc design</h1></a>
         <a href="#" class="toggle-nav">
           <span class="fa fa-bars"></span>
         </a>
