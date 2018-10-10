@@ -10,19 +10,23 @@
   </head>
   <body>
     <header class="main-header">
-      <a href="../login.php" class="user">
-        <span class="fa fa-user"></span>
-      </a>
-      <a href="index.php"><h1>abc design</h1></a>
-      <a href="#" class="toggle-nav">
-        <span class="fa fa-bars"></span>
-      </a>
+      <div class="constant">
+        <a href="login.php" class="user">
+          <span class="fa fa-user"></span>
+        </a>
+        <a href="index.php"><h1>tribeca</h1></a>
+        <a href="#" class="toggle-nav">
+          <span class="fa fa-bars"></span>
+        </a>
+      </div>
       <ul class="main-nav">
         <li><a href="index.php">home</a></li>
         <li><a href="#">nosotros</a></li>
         <li><a href="#">portfolio</a></li>
-        <li><a href="#">faq's</a></li>
+        <li><a href="#">cotizaciones</a></li>
+        <li><a href="faq.php">faq's</a></li>
         <li><a href="#">contacto</a></li>
+        <li><a href="register.php">registrate</a></li>
       </ul>
     </header>
     <div class="login-clean">
@@ -55,11 +59,13 @@
           </nav>
           <nav class="contact">
             <ul>
-              <li><a href="proyecto-final.php">home</a></li>
+              <li><a href="#">home</a></li>
               <li><a href="#">nosotros</a></li>
               <li><a href="#">portfolio</a></li>
+              <li><a href="#">cotizaciones</a></li>
               <li><a href="faq.php">faq's</a></li>
               <li><a href="#">contacto</a></li>
+              <li><a href="register.php">registrate</a></li>
             </ul>
           </nav>
         </footer>

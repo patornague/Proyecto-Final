@@ -6,24 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans+Condensed:300,700" rel="stylesheet">
-    <title>Registrarse</title>
+    <title>Registrate</title>
     <link rel="stylesheet" href="../css/register.css">
   </head>
   <body>
     <header class="main-header">
-      <a href="../login.php" class="user">
-        <span class="fa fa-user"></span>
-      </a>
-      <a href="index.php"><h1>abc design</h1></a>
-      <a href="#" class="toggle-nav">
-        <span class="fa fa-bars"></span>
-      </a>
+      <div class="constant">
+        <a href="login.php" class="user">
+          <span class="fa fa-user"></span>
+        </a>
+        <a href="index.php"><h1>tribeca</h1></a>
+        <a href="#" class="toggle-nav">
+          <span class="fa fa-bars"></span>
+        </a>
+      </div>
       <ul class="main-nav">
         <li><a href="index.php">home</a></li>
         <li><a href="#">nosotros</a></li>
         <li><a href="#">portfolio</a></li>
-        <li><a href="#">faq's</a></li>
+        <li><a href="#">cotizaciones</a></li>
+        <li><a href="faq.php">faq's</a></li>
         <li><a href="#">contacto</a></li>
+        <li><a href="register.php">registrate</a></li>
       </ul>
     </header>
 <div class="register-photo">
@@ -194,7 +198,7 @@
       </div>
 
 
-      <a class="already" href="#">Ya tienes una cuenta? Ingresa aquí.</a>
+      <a class="already" href="login.php">Ya tienes una cuenta? Ingresa aquí.</a>
 
 
     </form>
@@ -211,9 +215,10 @@
     </nav>
     <nav class="contact">
       <ul style="list-style-type:none">
-        <li><a href="proyecto-final.php">home</a></li>
+        <li><a href="index.php">home</a></li>
         <li><a href="#">nosotros</a></li>
         <li><a href="#">portfolio</a></li>
+        <li><a href="#">cotizaciones</a></li>
         <li><a href="faq.php">faq's</a></li>
         <li><a href="#">contacto</a></li>
       </ul>
