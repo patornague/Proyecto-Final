@@ -1,39 +1,65 @@
-<!DOCTYPE html>
+<?php
+require "functions.php";
+$meses=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+if ($_POST) {
+	$nombre=$_POST["nombre"];
+	$apellido=$_POST["apellido"];
+	$usuario=$_POST["username"];
+	$email=$_POST["email"];
+	$dia= $_POST["fnac_dia"];
+	$mes= $_POST["fnac_mes"];
+	$anio= $_POST["fnac_anio"];
+	if (isset($_POST["categorias"])) {
+		$categorias= $_POST["categorias"];
+	}else {
+		$categorias= [];
+	}
+	if (isset($_POST["genero"])) {
+		$genero= $_POST["genero"];
+	}else {
+		$genero= [];
+	}
+	$descripcion= $_POST["descripcion"];
+	//
+	$errores=registerValidation($_POST);
+	var_dump($errores);
+	if (empty($errores)) {
+		guardarUsuario($_POST);
+	}
 
+}
+ ?>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans+Condensed:300,700" rel="stylesheet">
-    <title>Registrate</title>
+    <title>Registrarse</title>
     <link rel="stylesheet" href="../css/register.css">
   </head>
   <body>
     <header class="main-header">
-      <div class="constant">
-        <a href="login.php" class="user">
-          <span class="fa fa-user"></span>
-        </a>
-        <a href="index.php"><h1>tribeca</h1></a>
-        <a href="#" class="toggle-nav">
-          <span class="fa fa-bars"></span>
-        </a>
-      </div>
+      <a href="../login.php" class="user">
+        <span class="fa fa-user"></span>
+      </a>
+      <a href="proyecto-final.php"><h1>abc design</h1></a>
+      <a href="#" class="toggle-nav">
+        <span class="fa fa-bars"></span>
+      </a>
       <ul class="main-nav">
-        <li><a href="index.php">home</a></li>
-        <li><a href="#">nosotros</a></li>
-        <li><a href="#">portfolio</a></li>
-        <li><a href="#">cotizaciones</a></li>
-        <li><a href="faq.php">faq's</a></li>
-        <li><a href="#">contacto</a></li>
-        <li><a href="register.php">registrate</a></li>
+        <li><a href="proyecto-final.php">Home</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Faq's</a></li>
+        <li><a href="#">Contacto</a></li>
       </ul>
     </header>
 <div class="register-photo">
   <div class="form-container">
     <div class="image-holder">
-      <img src="../media/interiores.jpg">
+      <img src="../media/interiores.jp">
     </div>
     <form method="post">
       <h2 class="text-container">
@@ -86,27 +112,7 @@
     						<?php echo (isset($errores["contrasena_conf"]))?'<p style="color:red;">'.$errores["contrasena_conf"].'</p>':""; ?>
     					</div>
     				</div>
-    				<div class="form-group">
-    					<label>Avatar</label>
-    					<div>
-    						<input type="file" name="avatar"/>
-    					</div>
-    				</div>
-    				<div class="form-group">
-    					<label>Sexo</label>
-    					<div>
-    						<label class="radio-inline">
-    							<input type="radio" name="genero" id="genero_masculino" <?php if (isset($genero)&&$genero==0){
-    								echo "checked";
-    							} ?> value="0"> Masculino
-    						</label>
-    						<label class="radio-inline">
-    							<input type="radio" name="genero" id="genero_femenino" <?php if (isset($genero)&&$genero==1){
-    							echo "checked";
-    						} ?> value="1"> Femenino
-    						</label>
-    					</div>
-    				</div>
+
     				<div class="form-group">
     					<label> Fecha de Nacimiento</label>
     					<div class="row">
@@ -148,43 +154,15 @@
     						</div>
     					</div>
     				</div>
-    				<div class="form-group">
-    					<label>Categorías</label>
-    					<div>
-    						<div class="checkbox">
-    							<label>
-    								<input type="checkbox" name="categorias[]" <?php if (isset($categorias)&&in_array("1",$categorias)) {
-    									echo "checked";
-    								} ?> value="1"> Deportes
-    							</label>
-    						</div>
-    						<div class="checkbox">
-    							<label>
-    								<input type="checkbox" name="categorias[]" <?php if (isset($categorias)&&in_array("2",$categorias)) {
-    									echo "checked";
-    								} ?> value="2"> Geografía
-    							</label>
-    						</div><div class="checkbox">
-    							<label>
-    								<input type="checkbox" name="categorias[]" <?php if (isset($categorias)&&in_array("3",$categorias)) {
-    									echo "checked";
-    								} ?> value="3"> Historia
-    							</label>
-    						</div><div class="checkbox">
-    							<label>
-    								<input type="checkbox" name="categorias[]" <?php if (isset($categorias)&&in_array("4",$categorias)) {
-    									echo "checked";
-    								} ?> value="4"> Ciencias
-    							</label>
-    						</div>
     					</div>
     				</div>
-    				<div class="form-group">
-    					<label for="descripcion">Descripción</label>
-    					<textarea id="descripcion" name="descripcion" class="form-control" rows="3"><?php
-    						echo (isset($descripcion))?$descripcion:"";
-    					 ?></textarea>
-    				</div>
+            <div class="form-group">
+              <label>Avatar</label>
+              <div>
+                <input type="file" name="avatar"/>
+              </div>
+            </div>
+
     				<div class="checkbox">
     					<label>
     						<input type="checkbox" id="chk-terminos" name="terminos"> Acepto los términos y condiciones
@@ -198,7 +176,7 @@
       </div>
 
 
-      <a class="already" href="login.php">Ya tienes una cuenta? Ingresa aquí.</a>
+      <a class="already" href="#">Ya tienes una cuenta? Ingresa aquí.</a>
 
 
     </form>
@@ -215,10 +193,9 @@
     </nav>
     <nav class="contact">
       <ul style="list-style-type:none">
-        <li><a href="index.php">home</a></li>
+        <li><a href="proyecto-final.php">home</a></li>
         <li><a href="#">nosotros</a></li>
         <li><a href="#">portfolio</a></li>
-        <li><a href="#">cotizaciones</a></li>
         <li><a href="faq.php">faq's</a></li>
         <li><a href="#">contacto</a></li>
       </ul>
