@@ -44,15 +44,15 @@ if ($_POST) {
       <a href="../login.php" class="user">
         <span class="fa fa-user"></span>
       </a>
-      <a href="proyecto-final.php"><h1>abc design</h1></a>
+      <a href="index.php"><h1>tribeca</h1></a>
       <a href="#" class="toggle-nav">
         <span class="fa fa-bars"></span>
       </a>
       <ul class="main-nav">
-        <li><a href="proyecto-final.php">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li><a href="#">Nosotros</a></li>
         <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Faq's</a></li>
+        <li><a href="faq.php">Faq's</a></li>
         <li><a href="#">Contacto</a></li>
       </ul>
     </header>
@@ -176,7 +176,7 @@ if ($_POST) {
       </div>
 
 
-      <a class="already" href="#">Ya tienes una cuenta? Ingresa aquí.</a>
+      <a class="already" href="login.php">Ya tienes una cuenta? Ingresa aquí.</a>
 
 
     </form>
@@ -193,7 +193,7 @@ if ($_POST) {
     </nav>
     <nav class="contact">
       <ul style="list-style-type:none">
-        <li><a href="proyecto-final.php">home</a></li>
+        <li><a href="index.php">home</a></li>
         <li><a href="#">nosotros</a></li>
         <li><a href="#">portfolio</a></li>
         <li><a href="faq.php">faq's</a></li>
