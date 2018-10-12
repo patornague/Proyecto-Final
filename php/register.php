@@ -40,27 +40,28 @@ if ($_POST) {
     <link rel="stylesheet" href="../css/register.css">
   </head>
   <body>
-    <header class="main-header">
-      <a href="../login.php" class="user">
-        <span class="fa fa-user"></span>
-      </a>
-      <a href="index.php"><h1>tribeca</h1></a>
-      <a href="#" class="toggle-nav">
-        <span class="fa fa-bars"></span>
-      </a>
-      <ul class="main-nav">
-        <li><a href="index.php">Home</a></li>
-        <li><a href="#">Nosotros</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="faq.php">Faq's</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </header>
+		<header class="main-header">
+			<div class="constant">
+				<a href="login.php" class="user">
+					<span class="fa fa-user"></span>
+				</a>
+				<a href="index.php"><h1>tribeca</h1></a>
+				<a href="#" class="toggle-nav">
+					<span class="fa fa-bars"></span>
+				</a>
+			</div>
+			<ul class="main-nav">
+				<li><a href="index.php">home</a></li>
+				<li><a href="#">nosotros</a></li>
+				<li><a href="#">portfolio</a></li>
+				<li><a href="#">cotizaciones</a></li>
+				<li><a href="faq.php">faq's</a></li>
+				<li><a href="#">contacto</a></li>
+				<li><a href="register.php">registrate</a></li>
+			</ul>
+		</header>
 <div class="register-photo">
   <div class="form-container">
-    <div class="image-holder">
-      <img src="../media/interiores.jp">
-    </div>
     <form method="post">
       <h2 class="text-container">
         <strong>Creá</strong> tu cuenta.
@@ -170,37 +171,32 @@ if ($_POST) {
     					<?php echo (isset($errores["terminos"]))?'<p style="color:red;">'.$errores["terminos"].'</p>':""; ?>
     				</div>
     				<input type="submit" class="btn btn-info" value="Registrarme"/>
+						<a class="already" href="login.php">Ya tienes una cuenta? Ingresa aquí.</a>
     			</form>
     		</div>
     	</div>
-      </div>
-
-
-      <a class="already" href="login.php">Ya tienes una cuenta? Ingresa aquí.</a>
-
-
     </form>
 
-  </div>
-
-  <footer class="main-footer">
-    <nav class="social">
-      <ul style="list-style-type:none">
-        <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-        <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
-        <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-      </ul>
-    </nav>
-    <nav class="contact">
-      <ul style="list-style-type:none">
-        <li><a href="index.php">home</a></li>
-        <li><a href="#">nosotros</a></li>
-        <li><a href="#">portfolio</a></li>
-        <li><a href="faq.php">faq's</a></li>
-        <li><a href="#">contacto</a></li>
-      </ul>
-    </nav>
-  </footer>
+	<footer class="main-footer">
+		<nav class="social">
+			<ul>
+				<li><a href="#"><span class="fa fa-facebook"></span></a></li>
+				<li><a href="#"><span class="fa fa-pinterest"></span></a></li>
+				<li><a href="#"><span class="fa fa-instagram"></span></a></li>
+			</ul>
+		</nav>
+		<nav class="contact">
+			<ul>
+				<li><a href="#">home</a></li>
+				<li><a href="#">nosotros</a></li>
+				<li><a href="#">portfolio</a></li>
+				<li><a href="#">cotizaciones</a></li>
+				<li><a href="faq.php">faq's</a></li>
+				<li><a href="#">contacto</a></li>
+				<li><a href="register.php">registrate</a></li>
+			</ul>
+		</nav>
+	</footer>
 
 </div>
   </body>
