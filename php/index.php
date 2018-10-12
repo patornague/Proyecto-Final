@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans+Condensed:300,700" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>ABC</title>
+    <title>TRIBECA</title>
   </head>
   <body>
       <header class="main-header">

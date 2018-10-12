@@ -170,7 +170,7 @@ if ($_POST) {
     					</label>
     					<?php echo (isset($errores["terminos"]))?'<p style="color:red;">'.$errores["terminos"].'</p>':""; ?>
     				</div>
-    				<input type="submit" class="btn btn-info" value="Registrarme"/>
+    				<input type="submit" class="btn btn-info" value="Registrarme" location.href="index.php"/>
 						<a class="already" href="login.php">Ya tienes una cuenta? Ingresa aquí.</a>
     			</form>
     		</div>
