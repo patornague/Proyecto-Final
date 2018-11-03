@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100|Open+Sans+Condensed:300|Oswald:200|Wire+One" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styles.css">
-    <title>Tona Design</title>
+    <link rel="stylesheet" href="../css/portfolio.css">
+    <title>Portfolio</title>
   </head>
   <body>
       <header class="main-header">
@@ -31,29 +31,29 @@
       </header>
       <main class="main-body">
         <div class="card">
-  				<div class="card-data">
-  					<a href="nosotros.php"><h2>nosotros</h2></a>
-  				</div>
+          <div class="card-data">
+            <a href="#"><h2>nosotros</h2></a>
+          </div>
           <div class="photos">
             <img src="../media/interior-design-1.jpg" alt="foto-boceto" style="width:100%;height:40%;">
           </div>
-  			</div>
+        </div>
         <div class="card">
-  				<div class="card-data">
-  					<a href="portfolio.php"><h2>portfolio</h2></a>
-  				</div>
+          <div class="card-data">
+            <a href="#"><h2>portfolio</h2></a>
+          </div>
           <div class="photos">
             <img src="../media/library-1.jpeg" alt="foto-boceto" style="width:100%;">
           </div>
-  			</div>
+        </div>
         <div class="card">
-  				<div class="card-data">
-  					<a href="cotizaciones.php"><h2>cotizaciones</h2></a>
-  				</div>
+          <div class="card-data">
+            <a href="#"><h2>cotizaciones</h2></a>
+          </div>
           <div class="photos">
             <img src="../media/interior-design-2.jpg" alt="foto-boceto" style="width:100%;">
           </div>
-  			</div>
+        </div>
       </main>
       <footer class="main-footer">
         <nav class="social">
@@ -75,5 +75,5 @@
            </ul>
         </nav>
       </footer>
-  </body>
-</html>
+    </body>
+  </html>
