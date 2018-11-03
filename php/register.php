@@ -126,7 +126,6 @@ if ($_POST) {
 		    								}else {
 		    									echo "<option value=$i>$i</option>";
 		    								}
-
 		    							} ?>
 		    							</select>
 		    						</div>
@@ -138,7 +137,6 @@ if ($_POST) {
 		    								}else {
 		    										echo "<option value=".($i+1).">$meses[$i]</option>";
 		    								}
-
 		    							} ?>
 		    							</select>
 		    						</div>
@@ -151,11 +149,11 @@ if ($_POST) {
 		    									echo "<option value=$i>$i</option>";
 		    								}
 		    								} ?>
-
 		    							</select>
 		    						</div>
 		    					</div>
 		    				</div>
+
 		    					</div>
 		    				</div>
 		            <div class="form-group">
@@ -164,13 +162,6 @@ if ($_POST) {
 		                <input type="file" name="avatar"/>
 		              </div>
 		            </div>
-
-		    				<div class="checkbox">
-		    					<label>
-		    						<input type="checkbox" id="chk-terminos" name="terminos"> Acepto los términos y condiciones
-		    					</label>
-		    					<?php echo (isset($errores["terminos"]))?'<p style="color:red;">'.$errores["terminos"].'</p>':""; ?>
-		    				</div>
 		    				<input type="submit" class="btn btn-info" value="Registrarme" location.href="index.php"/>
 								<a class="already" href="login.php">Ya tienes una cuenta? Ingresa aquí.</a>
 		    			</form>

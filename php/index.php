@@ -19,15 +19,15 @@
     				<span class="fa fa-bars"></span>
     			</a>
         </div>
-       <ul class="main-nav">
-          <li><a href="index.php">home</a></li>
-          <li><a href="nosotros.php">nosotros</a></li>
-          <li><a href="portfolio.php">portfolio</a></li>
-          <li><a href="cotizaciones.php">cotizaciones</a></li>
-          <li><a href="faq.php">faq's</a></li>
-          <li><a href="#">contacto</a></li>
-          <li><a href="register.php">registrate</a></li>
-        </ul>
+        <ul class="main-nav">
+           <li><a href="index.php">home</a></li>
+           <li><a href="nosotros.php">nosotros</a></li>
+           <li><a href="portfolio.php">portfolio</a></li>
+           <li><a href="cotizaciones.php">cotizaciones</a></li>
+           <li><a href="faq.php">faq's</a></li>
+           <li><a href="#">contacto</a></li>
+           <li><a href="register.php">registrate</a></li>
+         </ul>
       </header>
       <main class="main-body">
         <div class="card">
@@ -35,7 +35,7 @@
   					<a href="nosotros.php"><h2>nosotros</h2></a>
   				</div>
           <div class="photos">
-            <img src="../media/interior-design-1.jpg" alt="foto-boceto" style="width:100%;height:40%;">
+            <img src="../media/library-1.jpeg" alt="foto-boceto" style="width:100%;height:40%;">
           </div>
   			</div>
         <div class="card">
@@ -43,7 +43,7 @@
   					<a href="portfolio.php"><h2>portfolio</h2></a>
   				</div>
           <div class="photos">
-            <img src="../media/library-1.jpeg" alt="foto-boceto" style="width:100%;">
+            <img src="../media/interior-design-1.jpg" alt="foto-boceto" style="width:100%;">
           </div>
   			</div>
         <div class="card">
