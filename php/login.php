@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans+Condensed:300,700" rel="stylesheet">
-    <link rel="stylesheet" href="../css/login.css">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100|Open+Sans+Condensed:300|Oswald:200|Wire+One" rel="stylesheet">
+  <link rel="stylesheet" href="../css/login.css">
     <title>Ingresar</title>
   </head>
   <body>
@@ -14,7 +14,7 @@
         <a href="login.php" class="user">
           <span class="fa fa-user"></span>
         </a>
-        <a href="index.php"><h1>tribeca</h1></a>
+        <a href="index.php"><h1>Tona Interior Design</h1></a>
         <a href="#" class="toggle-nav">
           <span class="fa fa-bars"></span>
         </a>
@@ -30,6 +30,7 @@
       </ul>
     </header>
     <div class="login-clean">
+      <div class="">
             <form method="post">
                 <h2 class="sr-only">Login Form</h2>
                 <div class="illustration">
@@ -48,6 +49,7 @@
                 </div>
                 <a href="register.php" class="forgot">Olvidaste tu email o tu contraseña?</a>
               </form>
+              </div>
         </div>
         <footer class="main-footer">
           <nav class="social">
