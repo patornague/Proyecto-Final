@@ -14,16 +14,16 @@
         <a href="login.php" class="user">
           <span class="fa fa-user"></span>
         </a>
-        <a href="index.php"><h1>Tona Interior Design</h1></a>
+        <a href="index.php"><h1>tona interior design</h1></a>
         <a href="#" class="toggle-nav">
           <span class="fa fa-bars"></span>
         </a>
       </div>
       <ul class="main-nav">
         <li><a href="index.php">home</a></li>
-        <li><a href="#">nosotros</a></li>
-        <li><a href="#">portfolio</a></li>
-        <li><a href="#">cotizaciones</a></li>
+        <li><a href="nosotros.php">nosotros</a></li>
+        <li><a href="portfolio.php">portfolio</a></li>
+        <li><a href="cotizaciones.php">cotizaciones</a></li>
         <li><a href="faq.php">faq's</a></li>
         <li><a href="#">contacto</a></li>
         <li><a href="register.php">registrate</a></li>
@@ -61,10 +61,10 @@
           </nav>
           <nav class="contact">
             <ul>
-              <li><a href="#">home</a></li>
-              <li><a href="#">nosotros</a></li>
-              <li><a href="#">portfolio</a></li>
-              <li><a href="#">cotizaciones</a></li>
+              <li><a href="index.php">home</a></li>
+              <li><a href="nosotros.php">nosotros</a></li>
+              <li><a href="portfolio.php">portfolio</a></li>
+              <li><a href="cotizaciones.php">cotizaciones</a></li>
               <li><a href="faq.php">faq's</a></li>
               <li><a href="#">contacto</a></li>
               <li><a href="register.php">registrate</a></li>

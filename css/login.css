@@ -222,7 +222,7 @@ button, input, optgroup, select, textarea {
     opacity: 0.9;
     text-decoration: none;
 }
-/*========================================*/
+/* ======================= */
 @media(max-width:320px) {
 	h1{
 		font-size: 2em;
