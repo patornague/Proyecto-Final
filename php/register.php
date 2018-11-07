@@ -22,7 +22,6 @@ if ($_POST) {
 	$descripcion= $_POST["descripcion"];
 	//
 	$errores=registerValidation($_POST);
-	var_dump($errores);
 	if (empty($errores)) {
 		guardarUsuario($_POST);
 	}
@@ -66,7 +65,6 @@ if ($_POST) {
 		  <form  class="form" method="post">
 		   <form role="form" action="" method="post" enctype="multipart/form-data">
 		    	<div class="form-group">
-
 		    		<input type="text" class="form-control" id="nombre" name="nombre" value=""<?php echo (!empty($nombre))?$nombre:""; ?> placeholder="Nombre *">
 		    		<?php echo (isset($errores["nombre"]))?>
 		    	</div>
