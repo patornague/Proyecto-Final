@@ -38,7 +38,7 @@ if ($_POST) {
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100|Open+Sans+Condensed:300|Oswald:200|Wire+One" rel="stylesheet">
     <link rel="stylesheet" href="../css/register.css">
-    <title>Tona Design</title>
+    <title>Registrarse</title>
   </head>
   <body>
     <header class="main-header">
@@ -127,7 +127,7 @@ if ($_POST) {
 		    			</div>
 		    			<div class="col-sm-4">
 		    				<select class="form-control" name="fnac_anio">
-		    						<?php for ($i=1960; $i < 2016; $i++) {
+		    						<?php for ($i=1960; $i < 2018; $i++) {
 		   							if (isset($anio)&&$anio==$i) {
 		    						echo "<option selected value=$i>$i</option>";
 		    						}else {
@@ -143,8 +143,16 @@ if ($_POST) {
 		               <input type="file" name="avatar"/>
 		             </div>
 		           </div>
+							 <br>
+							 <div class="checkbox">
+								 <label>
+									 <input type="checkbox" id="chk-terminos" name="terminos"> Acepto los términos y condiciones.
+								 </label>
+								 <?php echo (isset($errores["terminos"]))?'<p style="color:red;">'.$errores["terminos"].'</p>':""; ?>
+							 </div>
 							<div class="form-group">
 		    				<input type="submit" class="btn btn-info" value="Registrarme" location.href="index.php"/>
+								<br>
 								<a class="already" href="login.php">Ya tienes una cuenta? Ingresa aquí.</a>
 							</div>
 		    		</form>

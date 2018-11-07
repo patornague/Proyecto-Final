@@ -44,6 +44,12 @@
                 <div class="form-group">
                   <input class="form-control" name="password" placeholder="Contraseña" type="password">
                 </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" id="chk-remember" name="remember"> Recordarme
+                  </label>
+                </div>
+                <br>
                 <div class="form-group">
                   <button class="btn btn-primary btn-block" type="submit">Ingresar</button>
                 </div>
