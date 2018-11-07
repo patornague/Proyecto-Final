@@ -43,7 +43,7 @@
   					<a href="portfolio.php"><h2>portfolio</h2></a>
   				</div>
           <div class="photos">
-            <img src="../media/interior-design-1.jpg" alt="foto-boceto" style="width:100%;">
+            <img src="../media/library-3.jpg" alt="foto-boceto" style="width:100%;">
           </div>
   			</div>
         <div class="card">
