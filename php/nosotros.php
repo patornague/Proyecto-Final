@@ -14,7 +14,7 @@
           <a href="login.php" class="user">
             <span class="fa fa-user"></span>
           </a>
-          <h1>tona interior design</h1>
+          <a href="index.php"><h1>tona interior design</h1></a>
           <a href="#" class="toggle-nav">
     				<span class="fa fa-bars"></span>
     			</a>

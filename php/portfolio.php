@@ -14,7 +14,7 @@
           <a href="login.php" class="user">
             <span class="fa fa-user"></span>
           </a>
-          <h1>tona interior design</h1>
+          <a href="index.php"><h1>tona interior design</h1></a>
           <a href="#" class="toggle-nav">
     				<span class="fa fa-bars"></span>
     			</a>
@@ -35,7 +35,7 @@
             <a href="#"><h2>nosotros</h2></a>
           </div>
           <div class="photos">
-            <img src="../media/interior-design-1.jpg" alt="foto-boceto" style="width:100%;height:40%;">
+            <img src="../media/interior-design-2.jpg" alt="foto-boceto" style="width:100%;height:40%;">
           </div>
         </div>
         <div class="card">
@@ -51,7 +51,7 @@
             <a href="#"><h2>cotizaciones</h2></a>
           </div>
           <div class="photos">
-            <img src="../media/interior-design-2.jpg" alt="foto-boceto" style="width:100%;">
+            <img src="../media/interior-design-1.jpg" alt="foto-boceto" style="width:100%;">
           </div>
         </div>
       </main>
