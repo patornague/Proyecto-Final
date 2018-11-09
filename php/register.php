@@ -1,7 +1,7 @@
 <?php
 require "functions.php";
 $meses=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
-if ($_POST) {
+if (isset($_POST['submit'])) {
 	$nombre=$_POST["nombre"];
 	$apellido=$_POST["apellido"];
 	$usuario=$_POST["username"];
