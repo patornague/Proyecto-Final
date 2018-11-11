@@ -1,3 +1,16 @@
+<?php
+/**
+ *
+ */
+class Portfolio extends Index
+{
+
+  function __construct(argument)
+  {
+    // code...
+  }
+}
+ ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>

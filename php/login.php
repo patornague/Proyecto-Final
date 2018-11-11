@@ -1,4 +1,17 @@
-<!DOCTYPE html>
+<?php
+/**
+ *
+ */
+class Login extends Index
+{
+
+  function __construct(argument)
+  {
+    // code...
+  }
+}
+ ?>
+ <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
