@@ -57,6 +57,44 @@ body{
 	font-family: 'Open Sans Condensed',sans-serif;
 	font-size: 16px;
 }
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+input[type=text], input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
 /* ====================== */
 .main-header{
 	width: 100%;
@@ -141,6 +179,7 @@ a{
 
 /*LOG IN*/
 
+
 .login-clean {
     padding: 80px 0;
 		width:100%;
@@ -208,6 +247,21 @@ button, input, optgroup, select, textarea {
     font-size: inherit;
     line-height: inherit;
 }
+.btn btn-primary btn-block {
+  background-color: rgba(133,146,158,1);
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn btn-primary btn-block:hover {
+  opacity:1;
+}
+
 
 .form-group {
     margin-bottom: 1rem;

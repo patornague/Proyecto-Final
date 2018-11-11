@@ -11,7 +11,18 @@ class Login extends Index
   }
 }
  ?>
- <!DOCTYPE html>
+<!DOCTYPE html>
+
+<?php require "functions.php";
+if (isset($_POST['submit']))
+$usuario=$_POST["username"];
+	$data=$_POST["contrasena"];
+  if($usuario==$guardados && $data='contrasena'){
+    echo ("Usuario y contraseña correctos");
+  }else {
+    echo "Error, datos erroneos";
+  }
+?>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
