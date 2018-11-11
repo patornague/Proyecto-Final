@@ -5,12 +5,11 @@
 class Register extends Index
 {
 
-  function __construct(argument)
-  {
-    // code...
-  }
+
 }
  ?>
+
+ 
 <?php
 require "functions.php";
 $meses=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];

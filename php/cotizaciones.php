@@ -5,12 +5,10 @@
 class Cotizacion extends Index
 {
 
-  function __construct(argument)
-  {
-    // code...
-  }
+
 }
  ?>
+ 
  <!DOCTYPE html>
  <head>
     <meta charset="utf-8">

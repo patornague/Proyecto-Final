@@ -5,13 +5,10 @@
 class Login extends Index
 {
 
-  function __construct(argument)
-  {
-    // code...
-  }
+
 }
  ?>
-<!DOCTYPE html>
+
 
 <?php require "functions.php";
 if (isset($_POST['submit']))
@@ -23,6 +20,8 @@ $usuario=$_POST["username"];
     echo "Error, datos erroneos";
   }
 ?>
+
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
