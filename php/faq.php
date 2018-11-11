@@ -2,13 +2,13 @@
 /**
  *
  */
-class Faq extends Index
+class Faq
 {
 
 
 }
  ?>
- 
+
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">

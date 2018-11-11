@@ -2,13 +2,13 @@
 /**
  *
  */
-class Cotizacion extends Index
+class Cotizacion
 {
 
 
 }
  ?>
- 
+
  <!DOCTYPE html>
  <head>
     <meta charset="utf-8">

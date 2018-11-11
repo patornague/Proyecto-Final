@@ -2,13 +2,13 @@
 /**
  *
  */
-class Portfolio extends Index
+class Portfolio
 {
 
 
 }
  ?>
- 
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>

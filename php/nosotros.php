@@ -2,13 +2,13 @@
 /**
  *
  */
-class About extends Index
+class About
 {
 
 
 }
  ?>
- 
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>

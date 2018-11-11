@@ -2,7 +2,7 @@
 /**
  *
  */
-class Login extends Index
+class Login
 {
 
 
